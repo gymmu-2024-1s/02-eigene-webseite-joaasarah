@@ -33,5 +33,10 @@ body {
 }
 
 .red {
-    color: red;
+ color:darkred; (220, 162, 171); (208, 198, 105);
+}
+
+.bigger {
+    font-size: 36pt;
+    font-weight: bold;
 }
