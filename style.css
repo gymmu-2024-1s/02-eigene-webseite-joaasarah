@@ -7,6 +7,7 @@
 /* Hier können Stiele für die ganze Webseite angegeben werden. */
 body {
     margin: 0;
+    background-color: thistle;
 }
 
 /* Hier werden 2 Elemente nebeneinander gepackt.
@@ -29,4 +30,34 @@ body {
 .text-and-img img {
     border-radius: 2rem; /* Damit können die Ecken abgerundet werden. */
     width: 100%; /* Braucht es damit das Bild im Container bleibt und nicht viel zu gross ist. */
+}
+
+.red {
+    color: darkred;
+}
+
+.bigger {
+    font-size: 24pt;
+    font-weight: normal;
+}
+
+.abstand {
+    padding: 1rem;
+    padding-top: 0;
+}
+.bg-blue {
+    border: 5px plum;
+    border-radius: 4rem;
+    margin: 10px;
+    padding: 2rem;
+}
+
+h1 {
+    border: 2px dotted forestgreen;
+    padding: 1rem;
+}
+
+h2 {
+    border: 2px dotted green;
+    padding: 1 rem;
 }
