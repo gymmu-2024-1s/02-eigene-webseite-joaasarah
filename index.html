@@ -16,8 +16,12 @@
             <!-- Im header wird der Kopf der Webseite angegeben.
             Dies ist aber nur ein Struktur-Element. Damit der Header auch immer
             ganz oben angezeigt wird, braucht es noch das richtige CSS dafür. -->
-            <h1>Webseite von Sarah Ilhan</h1>
-        </header>
+            <section>
+                <header="bg-blue">
+                <h1>Webseite von Sarah Ilhan</h1>
+            </header>
+            </section>
+        
 
         <nav>
             <!-- Das Navigations-Element beinhaltet eine Liste von Links, mit
@@ -27,7 +31,10 @@
 
             <ul>
                 <li>
-                    <a href="./pages/hobbies.html">Hobbies</a>
+                    <a href="./pages/Lieblingsfilme.html">Hobbies</a>
+                </li>
+                <li>
+                    <a href="Lieblingsfilme./pages.html">Lieblingsfilme</a>
                 </li>
             </ul>
         </nav>
@@ -37,17 +44,18 @@
             anzeigen möchten. Dieser ist meistens in Section-Elemente
             unterteilt. -->
 
-            <section>
+            <section class="abstand">
                 <!-- Dieses Element wird verwendet um einen Abschnitt auf der
                 Webseite vom Rest abzutrennen. Für Abschnitte in einem Text
                 verwendet man das p-Element. -->
-                <h2></h2>
 
-                <h2>  Das bin ich ...</h2>
-                <p>
-                    <!-- Mit dem p-Element Teilt man einen Text in Paragraphen
+                <h2>Das bin ich ...</h2>
+
+                <!-- Mit dem p-Element Teilt man einen Text in Paragraphen
                     ein. Das p-Element hat meistens nur noch Text, Links oder
                     Bilder drin, sonst keine weiteren Elemente. -->
+
+                <p>
                     Hallo ich heisse Sarah Ilhan und bin 16 Jahre alt. Vor ein
                     paar Monaten bin ich mit meiner Familie in die Schweiz
                     gezogen und besuche jetzt das Gymnasium mit dem Schwerpunkt
@@ -55,6 +63,7 @@
                     meine Freunde zurücklassen musste, aber dafür konnte ich
                     schon ein paar neue Freundschaften in der Klasse schließen.
                 </p>
+            <section>
                 <p>
                     Nach der Schule, möchte ich vielleicht ein Auslandsjahr
                     machen, jedoch habe ich mich noch nicht entschieden wo
@@ -69,24 +78,24 @@
             </section>
 
             <section>
-                <h2></h2>
                 <div class="text-and-img">
                     <!-- Hier wird eine Klasse verwendet, die in CSS angibt wie das
                     Element gestaltet werden soll. Es werden hier 2 Kinder-Elemente
                     verwendet, damit wir den Effekt von einem Text neben einem Bild
                     einfach hinbekommen können. -->
-                    <div class="image"></div>
+
                     <div class="text">
                         <section>
-               <h2>
-                     Balllet-Mein Lieblingshobby </h2></section>
-                    <p></p>
-                    Das Bild habe ich gewählt, weil ich in meiner Freizeit Ballet tanze 
-                    und es eines meiner Lieblingsbeschäftigungen ist.Man braucht für 
-                    diese Tanzart sehr viel Konzentration, Disziplin und Körperspannung.
-                    Auch wenn es manchmal sehr anstrengend ist macht es mir sehr Spass. 
-                    </p>
-                
+                            <h2>Balllet-Mein Lieblingshobby</h2>
+                            <p>
+                                Das Bild habe ich gewählt, weil ich in meiner
+                                Freizeit Ballet tanze und es eines meiner
+                                Lieblingsbeschäftigungen ist. Man braucht für
+                                diese Tanzart sehr viel Konzentration, Disziplin
+                                und Körperspannung. Auch wenn es manchmal sehr
+                                anstrengend ist macht es mir sehr Spass.
+                            </p>
+                        </section>
                     </div>
                     <div class="image">
                         <img
@@ -96,17 +105,28 @@
                     </div>
                 </div>
             </section>
-        </main>
 
-        <svg width="400" height="190">
-            <rect x="50" y="25" rx="25" ry="50" width="150" height="150"
-            style="fill:plum;stroke:papayawhip;stroke-width:5;opacity:0.5" />
-          </svg>
-          
-          
-          
-                
-        </svg>
+            <section>
+
+            </section>
+
+            <svg width="400" height="190">
+                <rect
+                    x="50"
+                    y="25"
+                    rx="25"
+                    ry="50"
+                    width="150"
+                    height="150"
+                    style="
+                        fill: plum;
+                        stroke: papayawhip;
+                        stroke-width: 5;
+                        opacity: 0.5;
+                    "
+                />
+            </svg>
+        </main>
 
         <footer>
             <!-- Hier kommt die Fusszeile der Webseite -->
