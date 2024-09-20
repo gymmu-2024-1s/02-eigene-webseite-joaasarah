@@ -56,3 +56,8 @@ h1 {
     border: 2px dotted forestgreen;
     padding: 1rem;
 }
+
+h2 {
+    border: 2px dotted green;
+    padding: 1 rem;
+}
